@@ -1,0 +1,42 @@
+.flag {
+    display: flex;
+    height: 700px;
+    width: 900px;
+    border: 2px solid;
+}
+
+.column {
+    height: 700px;
+    width: 150px;
+    background-color: red;
+}
+
+.columnleaf {
+    height: 700px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.columnleaf img {
+    width: 400px;
+}
+
+.maple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+    
+    .maple:after {
+      position: absolute;
+      content: "";
+      width: 320px;
+      height: 320px;
+      background: #F00;
+      display: block;
+      clip-path: polygon(47% 100%, 48% 70%, 25% 73%, 28% 65%, 7% 47%, 11% 44%, 8%     30%, 20% 32%, 23% 27%, 35% 40%, 32% 13%, 39% 16%, 50% 0, 61% 16%, 68% 13%,     65% 40%, 77% 27%, 80% 32%, 92% 30%, 89% 44%, 93% 47%, 72% 65%, 75% 73%, 52% 70%, 53% 100%);
+  }
