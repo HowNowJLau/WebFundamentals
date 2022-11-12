@@ -1,0 +1,26 @@
+.titlebar {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.cloud {
+    color:aqua
+}
+
+.heading {
+    background-color: rebeccapurple;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: monospace;
+}
+
+.contact {
+    background-color:rgb(146, 182, 218);
+    color:darkslateblue;
+    text-decoration: underline;
+    text-align: right;
+}
