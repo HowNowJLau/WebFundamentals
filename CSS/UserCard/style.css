@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 40px 600px;
+    height: 40%;
+    width: 30%;
+}
+
+.top-bar {
+    height: 70px;
+    background-color: darkcyan;
+}
+
+.top-bar img {
+    height: 70px;
+    margin: 15px 20px;
+    position: relative;
+    top: 20px;
+}
+
+.info-card {
+    border-left: 3px lightgrey groove;
+    border-right: 3px lightgrey groove;
+    border-bottom: 3px lightgrey groove;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+.location img{
+    height: 20px;
+    padding: 5px 10px 5px 0px;
+}
+
+.titles {
+    font-weight: bold;
+    margin: 10px;
+    width: 40%;
+}
+
+.edit-profile {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.edit-profile img { 
+    height: 20px;
+    padding: 5px 10px 5px 0px;
+}
