@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    margin: 0 10%;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+.profile {
+    display: inline-block;
+    width: 15%;
+    margin: 0 3% 0 10%;
+    padding: 20px 10px;
+    border: 2px solid black
+}
+
+.img-box {
+    display: flex;
+    justify-content:center;
+}
+.profile img {
+    width: 75px;
+}
+
+.profile a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feed {
+    display: inline-block;
+    width: 57%;
+    vertical-align: top;
+}
+
+.post {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px 0px 15px 15px;
+    border: 2px solid black;
+}
+
+.post-header {
+    display:flex;
+    align-items:center;
+}
+
+.post-author {
+    width: 55%;
+}
+
+.post-header h3 {
+    width: 25%;
+}
+
+.like-button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 10%;
+    padding: 3px;
+    color: black;
+    background-color:gold;
+    font-weight:bold;
+    font-size: 1.2em;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+
+.post h3 {
+    margin: 15px 3% 15px 0px;
+}

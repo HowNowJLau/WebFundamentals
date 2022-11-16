@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">Network</h1>
+    <h1 class="title">Your Feed</h1>
+    <div class="profile">
+        <div class="img-box">
+            <img src="user-circle.png" alt="profile silhouette">
+        </div>
+        <a href="#">Add an avatar</a>
+        <h2 class="name">James Doe</h2>
+    </div>
+    <div class="feed">
+        <div class="post">
+            <div class="post-header">
+                <h2 class="post-author">Neil M</h2>
+                <h3 id="neil-likes">9 like(s)</h3>
+                <button class="like-button" onclick="increaseNeilLikes()">Like</button>
+            </div>
+            <h3>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></h3>
+        </div>
+        <div class="post">
+            <div class="post-header">
+                <h2 class="post-author">Nichole K</h2>
+                <h3 id="nichole-likes">12 like(s)</h3>
+                <button class="like-button" onclick="increaseNicholeLikes()">Like</button>
+            </div>
+            <h3>Just finished my <a href="#">next comic,</a> check it out.</h3>
+        </div>
+        <div class="post">
+            <div class="post-header">
+                <h2 class="post-author">Jim R</h2>
+                <h3 id="jim-likes">9 like(s)</h3>
+                <button class="like-button" onclick="increaseJimLikes()">Like</button>
+            </div>
+            <h3>I can't stop listening to the <a href="#">new album.</a> Who else is liking it?</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
