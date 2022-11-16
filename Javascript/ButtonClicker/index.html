@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="title">Dojonary</h1>
+        <input type="text" class="search-bar" placeholder="Search">
+        <button class="btn" onclick="logout(this)">Login</button>
+    </div>
+    <div class="column-1">
+        <div class="definition">
+            <div class="word-column">
+                <h1 class="add-margin">ninja</h1>
+                <h4 class="part-of-speech add-margin">noun</h4>
+                <h4 class="plural add-margin">Plural: <span>ninjas</span></h4>
+                <button class="like-button" onclick="alert('Ninja was liked')">13 likes</button>
+            </div>
+            <h3 class="definition-column">
+                A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+            </h3>
+        </div>
+        <div class="definition">
+                <div class="word-column">
+                    <h1 class="add-margin">ninja</h1>
+                    <h4 class="part-of-speech add-margin">noun</h4>
+                    <h4 class="plural add-margin">Plural: <span>ninjas</span></h4>
+                    <button class="like-button" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <h3 class="definition-column">
+                    A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="column-2">
+        <div class="new-definition">
+            <h2>Dojonary is defined by YOU</h2>
+            <button class="add-definition" onclick="removeElement(this)">Add Definition</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
